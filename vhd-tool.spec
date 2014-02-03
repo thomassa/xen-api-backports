@@ -7,7 +7,7 @@ Release: 1
 Group:   System/Hypervisor
 License: LGPL+linking exception
 URL:  http://www.xen.org
-Source0: https://github.com/xapi-project/vhd-tool/archive/%{version}/vhd-tool-%{version}.tar.gz
+Source0: https://github.com/xapi-project/vhd-tool/archive/v%{version}.tar.gz
 Source1: vhd-tool-sparse_dd-conf
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 BuildRequires: ocaml ocaml-findlib ocaml-camlp4-devel ocaml-ocamldoc
